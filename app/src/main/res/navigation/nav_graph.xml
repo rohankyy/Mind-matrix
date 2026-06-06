@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Home screen -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nallanudi.app.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_search"
+            app:destination="@id/searchFragment" />
+
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/entryDetailFragment" />
+
+    </fragment>
+
+    <!-- Search screen -->
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.nallanudi.app.ui.search.SearchFragment"
+        android:label="@string/nav_search"
+        tools:layout="@layout/fragment_search">
+
+        <argument
+            android:name="preselectedSubject"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+
+        <action
+            android:id="@+id/action_search_to_detail"
+            app:destination="@id/entryDetailFragment" />
+
+    </fragment>
+
+    <!-- Entry detail screen -->
+    <fragment
+        android:id="@+id/entryDetailFragment"
+        android:name="com.nallanudi.app.ui.detail.EntryDetailFragment"
+        android:label=""
+        tools:layout="@layout/fragment_entry_detail">
+
+        <argument
+            android:name="entryId"
+            app:argType="long" />
+
+    </fragment>
+
+    <!-- My List screen -->
+    <fragment
+        android:id="@+id/myListFragment"
+        android:name="com.nallanudi.app.ui.mylist.MyListFragment"
+        android:label="@string/nav_my_list"
+        tools:layout="@layout/fragment_my_list">
+
+        <action
+            android:id="@+id/action_mylist_to_detail"
+            app:destination="@id/entryDetailFragment" />
+
+        <action
+            android:id="@+id/action_mylist_to_flashcard"
+            app:destination="@id/flashcardFragment" />
+
+    </fragment>
+
+    <!-- Flashcard screen -->
+    <fragment
+        android:id="@+id/flashcardFragment"
+        android:name="com.nallanudi.app.ui.flashcard.FlashcardFragment"
+        android:label="Flashcards"
+        tools:layout="@layout/fragment_flashcard" />
+
+</navigation>

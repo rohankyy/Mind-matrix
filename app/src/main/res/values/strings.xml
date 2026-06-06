@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ನಲ್ಲ ನುಡಿ</string>
+    <string name="app_name_english">Nalla-Nudi</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_my_list">My List</string>
+
+    <!-- Home Screen -->
+    <string name="word_of_the_day">Word of the Day</string>
+    <string name="tap_to_explore">Tap to explore</string>
+    <string name="browse_by_subject">Browse by Subject</string>
+    <string name="search_hint">Search technical terms…</string>
+
+    <!-- Subject Filters -->
+    <string name="subject_all">All</string>
+    <string name="subject_science">Science</string>
+    <string name="subject_mathematics">Mathematics</string>
+    <string name="subject_commerce">Commerce</string>
+
+    <!-- Search Screen -->
+    <string name="no_results_english">No results found</string>
+    <string name="no_results_kannada">ಯಾವುದೇ ಫಲಿತಾಂಶ ಸಿಗಲಿಲ್ಲ</string>
+    <string name="search_prompt">Search for a technical term above</string>
+
+    <!-- Entry Detail -->
+    <string name="kannada_translation_label">ಕನ್ನಡ ಅನುವಾದ</string>
+    <string name="explanation_label">ವಿವರಣೆ</string>
+    <string name="example_label">ಉದಾಹರಣೆ</string>
+    <string name="pronounce">Pronounce</string>
+    <string name="save_word">Save</string>
+    <string name="unsave_word">Saved</string>
+    <string name="tts_not_available">Text-to-speech is not supported on this device</string>
+    <string name="tts_not_available_kannada">ಈ ಸಾಧನದಲ್ಲಿ ಧ್ವನಿ ಸೇವೆ ಲಭ್ಯವಿಲ್ಲ</string>
+
+    <!-- My List Screen -->
+    <string name="my_list_empty">No saved words yet.\nSave difficult words to revise them here.</string>
+    <string name="my_list_empty_kannada">ಇನ್ನೂ ಯಾವ ಪದಗಳನ್ನೂ ಉಳಿಸಿಲ್ಲ.\nಕಷ್ಟದ ಪದಗಳನ್ನು ಉಳಿಸಿ ಇಲ್ಲಿ ಅಭ್ಯಾಸ ಮಾಡಿ.</string>
+    <string name="start_flashcards">Start Flashcards</string>
+    <string name="too_few_cards">Save at least 2 words to start flashcard revision.</string>
+    <string name="too_few_cards_kannada">ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್ ಪ್ರಾರಂಭಿಸಲು ಕನಿಷ್ಠ 2 ಪದಗಳನ್ನು ಉಳಿಸಿ.</string>
+
+    <!-- Flashcard Screen -->
+    <string name="tap_to_reveal">Tap card to reveal</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="flashcard_complete">Great job! You reviewed all your saved words.</string>
+    <string name="flashcard_complete_kannada">ಶಾಬಾಶ್! ನೀವು ಎಲ್ಲ ಉಳಿಸಿದ ಪದಗಳನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿದ್ದೀರಿ.</string>
+    <string name="restart">Restart</string>
+    <string name="card_progress">%1$d / %2$d</string>
+</resources>

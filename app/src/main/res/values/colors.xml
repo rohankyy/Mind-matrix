@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors — warm saffron/educational palette -->
+    <color name="primary">#E65100</color>
+    <color name="primary_variant">#BF360C</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#1565C0</color>
+    <color name="secondary_variant">#0D47A1</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_background">#212121</color>
+    <color name="on_surface">#212121</color>
+
+    <!-- Subject chip colors -->
+    <color name="science_chip">#1B5E20</color>
+    <color name="math_chip">#1A237E</color>
+    <color name="commerce_chip">#4A148C</color>
+
+    <!-- Saved state -->
+    <color name="saved_color">#E65100</color>
+    <color name="unsaved_color">#9E9E9E</color>
+
+    <!-- Word of the Day card -->
+    <color name="wotd_card_bg">#FFF3E0</color>
+    <color name="wotd_card_border">#E65100</color>
+</resources>
